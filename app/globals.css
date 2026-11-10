@@ -1,0 +1,379 @@
+@import "tailwindcss";
+
+@theme {
+  /* Charte : blanc cassé, bleu nuit, gris atelier, orange en touche (actions) */
+  --color-paper: #fafaf8;
+  --color-mist: #efefec;
+  --color-gray: #dadad6;
+  --color-line: #dadad6;
+  --color-ink: #161616;
+  --color-night: #1b2a41;
+  --color-night-deep: #142033;
+  /* Orange de la charte : fonds de boutons (texte noir 6:1), pictos, filets. Jamais en texte sur fond clair. */
+  --color-orange: #e07a1f;
+  /* Orange foncé : texte et liens sur fond clair (5,3:1 sur blanc cassé) */
+  --color-rust: #a3530f;
+  /* Texte secondaire : 7,4:1 sur blanc cassé */
+  --color-muted: #4b5462;
+
+  --font-body: var(--font-inter), "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-archivo), "Arial Narrow", Arial, sans-serif;
+
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    color-scheme: light;
+    scroll-padding-top: 6rem;
+  }
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+  }
+  a,
+  button,
+  label,
+  select,
+  input,
+  summary {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: var(--color-orange);
+    color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-orange);
+    outline-offset: 3px;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-rust);
+  }
+  .display {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-stretch: 108%;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .nav-link {
+    font-size: 0.9375rem;
+    font-weight: 500;
+  }
+  .lead {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-muted);
+  }
+  .btn-solid,
+  .btn-line {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    min-height: 3rem;
+    padding: 0.75rem 1.4rem;
+    border-radius: 4px;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: 1.2;
+    transition:
+      background-color 0.25s var(--ease-soft),
+      color 0.25s var(--ease-soft),
+      border-color 0.25s var(--ease-soft);
+  }
+  /* Bouton principal : orange, texte noir */
+  .btn-solid {
+    background: var(--color-orange);
+    color: var(--color-ink);
+    border: 1px solid var(--color-orange);
+  }
+  .btn-solid:hover {
+    background: #c9691a;
+    border-color: #c9691a;
+  }
+  .btn-solid.night {
+    background: var(--color-night);
+    border-color: var(--color-night);
+    color: var(--color-paper);
+  }
+  .btn-solid.night:hover {
+    background: var(--color-ink);
+    border-color: var(--color-ink);
+  }
+  .btn-line {
+    border: 1px solid currentColor;
+  }
+  .btn-line:hover {
+    background: var(--color-night);
+    border-color: var(--color-night);
+    color: var(--color-paper);
+  }
+  .btn-line.on-dark:hover {
+    background: var(--color-paper);
+    border-color: var(--color-paper);
+    color: var(--color-night);
+  }
+  .link-line {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color 0.25s;
+  }
+  .link-line:hover {
+    text-decoration-color: transparent;
+  }
+
+  .field {
+    width: 100%;
+    border: 1px solid #b9b9b3;
+    border-radius: 4px;
+    background: #fff;
+    padding: 0.75rem 0.95rem;
+    font-size: 1rem;
+    color: var(--color-ink);
+    transition: border-color 0.2s;
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-night);
+    box-shadow: 0 0 0 1px var(--color-night);
+  }
+  .field[aria-invalid="true"] {
+    border-color: #b42318;
+  }
+  .field::placeholder {
+    color: #7b818a;
+  }
+  /* Champ « plaque » : capitales espacées, comme une immatriculation */
+  .plate {
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 500;
+  }
+  .plate::placeholder {
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: 400;
+  }
+  .label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--color-ink);
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid #b9b9b3;
+    border-radius: 4px;
+    background: #fff;
+    min-height: 2.75rem;
+    padding: 0.45rem 0.95rem;
+    font-size: 0.9375rem;
+    cursor: pointer;
+    transition:
+      border-color 0.2s,
+      background-color 0.2s,
+      color 0.2s;
+  }
+  .chip:hover {
+    border-color: var(--color-night);
+  }
+  .chip:has(input:checked) {
+    border-color: var(--color-night);
+    background: var(--color-night);
+    color: var(--color-paper);
+  }
+  .chip:has(input:focus-visible) {
+    outline: 2px solid var(--color-orange);
+    outline-offset: 3px;
+  }
+
+  /* Photos : zoom très lent au survol */
+  .shine {
+    position: relative;
+    overflow: hidden;
+  }
+  .shine img {
+    transition: transform 1.2s var(--ease-soft);
+  }
+  .shine:hover img,
+  .group:hover .shine img {
+    transform: scale(1.03);
+  }
+}
+
+@layer components {
+/* Emplacement photo en attente : gris atelier, trame technique au trait */
+.slot {
+  position: relative;
+  background-color: var(--color-mist);
+  background-image:
+    linear-gradient(to right, rgb(27 42 65 / 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(27 42 65 / 0.07) 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-position: -1px -1px;
+}
+.slot.dark {
+  background-color: var(--color-night);
+  background-image:
+    linear-gradient(to right, rgb(250 250 248 / 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(250 250 248 / 0.06) 1px, transparent 1px);
+}
+}
+
+/* Apparition au défilement (components/Reveal.tsx) : courte et sobre */
+html.js .reveal:not(.in) {
+  opacity: 0;
+  transform: translateY(var(--reveal-y, 16px));
+}
+.reveal {
+  transition:
+    opacity 0.7s var(--ease-soft) var(--reveal-delay, 0s),
+    transform 0.7s var(--ease-soft) var(--reveal-delay, 0s);
+}
+.fade-in {
+  animation: fade-in 0.3s var(--ease-soft) both;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+.rise {
+  animation: rise 0.8s var(--ease-soft) both;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* ——— Ouverture (1,2 s) : fond gris clair, deux clés se croisent au trait bleu nuit et forment un anneau,
+   « ALLIANCE AUTO 80 » apparaît, fondu sur le hero. Une fois par session. ——— */
+.intro-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: var(--color-gray);
+  animation: intro-out 0.22s ease-out 0.98s forwards;
+}
+html.intro-seen .intro-curtain {
+  display: none;
+}
+@keyframes intro-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.intro-wrench-a,
+.intro-wrench-b {
+  transform-origin: 24px 24px;
+  opacity: 0;
+  animation: wrench-in 0.4s cubic-bezier(0.3, 0, 0.2, 1) 0.05s forwards;
+}
+.intro-wrench-a {
+  --from: rotate(-40deg);
+}
+.intro-wrench-b {
+  --from: rotate(40deg);
+}
+@keyframes wrench-in {
+  from {
+    opacity: 0;
+    transform: var(--from);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.intro-ring {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: draw 0.38s cubic-bezier(0.5, 0, 0.3, 1) 0.36s forwards;
+}
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.intro-fade {
+  opacity: 0;
+  animation: fade-up 0.26s var(--ease-soft) var(--d, 0.62s) forwards;
+}
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0s !important;
+    transition-duration: 0.01ms !important;
+  }
+  html.js .reveal:not(.in) {
+    opacity: 1;
+    transform: none;
+  }
+  .intro-curtain {
+    display: none;
+  }
+}

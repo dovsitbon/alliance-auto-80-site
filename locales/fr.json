@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "title": "Garage et mécanique à Camon, près d'Amiens | Alliance Auto 80",
+    "description": "Alliance Auto 80, garage automobile indépendant à Camon, aux portes d'Amiens : vidange, révision, freins, embrayage, distribution, diagnostic, pneus. Devis gratuit, toutes marques. 4,6/5 sur Google.",
+    "ogAlt": "Alliance Auto 80, garage automobile à Camon, près d'Amiens"
+  },
+  "nav": {
+    "entretien": "Entretien",
+    "mecanique": "Mécanique",
+    "tarifs": "Tarifs",
+    "infos": "Infos",
+    "devis": "Demander un devis",
+    "call": "Appeler",
+    "menu": "Menu",
+    "close": "Fermer le menu",
+    "home": "Alliance Auto 80, accueil",
+    "lang": "Langue",
+    "skip": "Aller au contenu"
+  },
+  "intro": {
+    "skip": "Passer"
+  },
+  "announce": {
+    "close": "Fermer le bandeau"
+  },
+  "status": {
+    "open": "Ouvert maintenant",
+    "closed": "Fermé",
+    "until": "jusqu'à {time}",
+    "reopens": "réouverture {day} à {time}",
+    "today": "aujourd'hui",
+    "tomorrow": "demain"
+  },
+  "days": ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"],
+  "rating": {
+    "label": "{value}/5 sur Google",
+    "count": "{count} avis",
+    "asOf": "Note relevée en {date}"
+  },
+  "hero": {
+    "eyebrow": "Garage · Mécanique · Entretien · Camon",
+    "title": "Un mécanicien honnête, tout simplement",
+    "lead": "Garage indépendant à Camon, aux portes d'Amiens. Vidange, freins, embrayage, distribution : un devis clair avant chaque intervention, et pas de surprise sur la facture.",
+    "field": "Immatriculation ou modèle",
+    "fieldPh": "AB-123-CD ou Clio 4 dCi",
+    "devis": "Demander un devis",
+    "call": "Appeler"
+  },
+  "tiles": {
+    "eyebrow": "Prestations",
+    "title": "Ce qu'on fait à l'atelier",
+    "from": "à partir de {price}",
+    "onQuote": "Prix sur devis",
+    "items": {
+      "entretien": { "title": "Vidange & révision", "text": "Huile, filtres, révision selon le carnet constructeur." },
+      "embrayage": { "title": "Embrayage", "text": "Kit complet, volant moteur, émetteur et récepteur." },
+      "freins": { "title": "Freins", "text": "Plaquettes, disques, liquide de frein." },
+      "distribution": { "title": "Distribution", "text": "Courroie, galets, pompe à eau, au bon kilométrage." },
+      "diagnostic": { "title": "Diagnostic", "text": "Voyant allumé, bruit, fuite : on cherche avant de changer." },
+      "pneus": { "title": "Pneus", "text": "Montage, équilibrage, crevaison." }
+    }
+  },
+  "strip": {
+    "label": "Nos engagements",
+    "items": [
+      { "title": "Devis gratuit", "text": "Avant toute intervention, sans engagement." },
+      { "title": "Prix honnêtes", "text": "On répare ce qui doit l'être, pas plus." },
+      { "title": "Toutes marques", "text": "Citadines, familiales, utilitaires, essence ou diesel." },
+      { "title": "09 80 37 44 12", "text": "Du lundi au vendredi, de 9 h à 18 h 30." }
+    ]
+  },
+  "tarifs": {
+    "eyebrow": "Tarifs",
+    "title": "Prix indicatifs et durées",
+    "lead": "Des prix « à partir de », TTC, pièces et main-d'œuvre. Ils varient selon le modèle et la motorisation : le devis, lui, est précis et gratuit.",
+    "note": "Durées données à titre indicatif, selon la disponibilité des pièces.",
+    "head": { "service": "Prestation", "price": "Prix", "duration": "Durée" },
+    "from": "à partir de {price}",
+    "onQuote": "Sur devis",
+    "confirm": "À confirmer",
+    "ask": "Devis",
+    "all": "Tous les tarifs",
+    "cardsTitle": "Par prestation"
+  },
+  "tarifsPage": {
+    "metaTitle": "Tarifs vidange, freins, embrayage à Camon, près d'Amiens | Alliance Auto 80",
+    "metaDescription": "Prix indicatifs « à partir de » et durées d'immobilisation : vidange, révision, freins, embrayage, distribution, diagnostic, pneus. Devis gratuit chez Alliance Auto 80, Camon.",
+    "eyebrow": "Tarifs",
+    "title": "Tarifs et durées",
+    "lead": "Pour chaque prestation, un prix « à partir de » et le temps d'immobilisation habituel. Le prix exact dépend de votre voiture : demandez un devis, c'est gratuit et sans engagement."
+  },
+  "blocks": {
+    "entretien": {
+      "eyebrow": "Entretien",
+      "title": "La vidange, sans attendre la panne",
+      "text": "Vidange, filtres, révision selon le carnet de votre constructeur, contrôle des freins et des niveaux. On suit ce que prévoit le fabricant, ni plus ni moins.",
+      "cta": "Prendre rendez-vous"
+    },
+    "reparations": {
+      "eyebrow": "Mécanique",
+      "title": "Embrayage, distribution : le prix annoncé avant de démonter",
+      "text": "Une pédale qui patine, un bruit au démarrage, une courroie qui arrive à son kilométrage. On diagnostique, on vous remet un devis détaillé, pièces et main-d'œuvre, et on s'y tient.",
+      "cta": "Demander un devis"
+    },
+    "transparence": {
+      "eyebrow": "Transparence",
+      "title": "On vous montre les pièces changées",
+      "text": "Vous récupérez votre voiture propre, les anciennes pièces si vous le souhaitez, et une facture qui détaille chaque ligne. Si une réparation peut attendre, on vous le dit aussi.",
+      "cta": "Appeler le garage"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Avis Google",
+    "title": "Ce que nos clients mentionnent le plus",
+    "themes": ["Des prix corrects", "Un mécanicien honnête", "Vidange et embrayage", "Une voiture rendue propre"],
+    "cta": "Lire les avis sur Google"
+  },
+  "infos": {
+    "eyebrow": "Infos pratiques",
+    "title": "Venir au garage",
+    "address": "Adresse",
+    "route": "Itinéraire",
+    "phone": "Téléphone",
+    "hours": "Horaires",
+    "access": "Accès et stationnement",
+    "accessText": "Dans la zone d'activité de la Blanche Tâche, à Camon, à quelques minutes d'Amiens. Vous pouvez vous garer devant l'atelier.",
+    "mapTitle": "Plan d'accès au garage Alliance Auto 80, Camon",
+    "closedDay": "Fermé",
+    "saturday": "Appelez-nous",
+    "closures": "Fermetures à venir"
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Avant de venir",
+    "items": [
+      { "q": "Faut-il prendre rendez-vous ?", "a": "Pour une vidange ou une révision, c'est préférable : appelez-nous ou envoyez une demande, on vous propose un créneau. Pour un bruit, un voyant ou une fuite, appelez : on regarde dès que possible." },
+      { "q": "Le devis est-il vraiment gratuit ?", "a": "Oui, gratuit et sans engagement. Et si on découvre autre chose pendant l'intervention, on vous appelle avant d'aller plus loin." },
+      { "q": "Combien de temps vais-je rester sans voiture ?", "a": "Une vidange prend environ une heure, des plaquettes à peu près autant. Un embrayage ou une distribution demandent en général une journée, selon la disponibilité des pièces. On vous donne le délai avec le devis." },
+      { "q": "Est-ce que je garde la garantie constructeur ?", "a": "Oui. Vous pouvez faire entretenir une voiture sous garantie dans un garage indépendant, à condition de suivre le programme d'entretien du constructeur avec des pièces de qualité équivalente. C'est ce que nous faisons." },
+      { "q": "Quels moyens de paiement acceptez-vous ?", "a": "Carte bancaire et espèces, au moment où vous récupérez votre voiture. Il n'y a pas de paiement en ligne." },
+      { "q": "Où se garer ?", "a": "Le garage est au 80 impasse Antoine Parmentier, dans la zone de la Blanche Tâche à Camon. Vous pouvez vous garer devant l'atelier." }
+    ]
+  },
+  "devis": {
+    "eyebrow": "Devis gratuit",
+    "title": "Demander un devis",
+    "lead": "Dites-nous quelle voiture et ce qui ne va pas. On vous rappelle avec un prix et un créneau, en général dans la journée ouvrée.",
+    "preferCall": "Plus simple au téléphone ?",
+    "sections": {
+      "vehicle": "Votre voiture",
+      "need": "Votre besoin",
+      "photos": "Photos",
+      "date": "Date souhaitée",
+      "contact": "Vos coordonnées"
+    },
+    "fields": {
+      "vehicle": "Immatriculation ou modèle",
+      "vehiclePh": "AB-123-CD ou Clio 4 dCi 90",
+      "vehicleHint": "L'immatriculation nous permet de trouver les bonnes pièces.",
+      "mileage": "Kilométrage",
+      "mileagePh": "120 000",
+      "needsLabel": "De quoi s'agit-il ?",
+      "needsHint": "plusieurs choix possibles",
+      "details": "Précisions",
+      "detailsPh": "Bruit au freinage, voyant moteur allumé, révision des 60 000 km…",
+      "photos": "Ajouter",
+      "photosHint": "Facultatif : un voyant, une fuite, un pneu, la carte grise. 1 à 3 photos.",
+      "photosCount": "{count} / 3 photos",
+      "photoRemove": "Retirer la photo",
+      "date": "Date souhaitée",
+      "dateHint": "Du lundi au vendredi. On confirme le créneau par téléphone.",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "emailHint": "(facultatif, pour recevoir une copie)",
+      "message": "Message",
+      "messagePh": "Une question, une contrainte d'horaire…"
+    },
+    "needs": {
+      "entretien": "Vidange, révision",
+      "embrayage": "Embrayage",
+      "freins": "Freins",
+      "distribution": "Distribution",
+      "diagnostic": "Diagnostic, voyant",
+      "pneus": "Pneus",
+      "autre": "Autre"
+    },
+    "errors": {
+      "vehicle": "Indiquez l'immatriculation ou le modèle.",
+      "need": "Choisissez un besoin ou décrivez-le en quelques mots.",
+      "name": "Indiquez votre nom.",
+      "phone": "Indiquez un numéro de téléphone valide.",
+      "email": "Cette adresse e-mail ne semble pas valide.",
+      "photo": "Cette photo n'a pas pu être ajoutée. Essayez un autre fichier.",
+      "generic": "L'envoi n'a pas abouti. Réessayez, ou appelez-nous au 09 80 37 44 12."
+    },
+    "submit": "Envoyer la demande",
+    "sending": "Envoi…",
+    "privacy": "Vos coordonnées servent uniquement à vous répondre. Elles ne sont ni revendues ni utilisées pour de la publicité.",
+    "success": {
+      "title": "Demande bien reçue",
+      "text": "Merci. On regarde votre demande et on vous rappelle avec un prix et un créneau.",
+      "email": "Une copie vient de partir sur votre adresse e-mail.",
+      "notNotified": "Pour être sûr qu'elle nous parvienne rapidement, le plus simple reste de nous appeler :",
+      "again": "Faire une autre demande"
+    },
+    "message": {
+      "title": "Nouvelle demande de devis",
+      "vehicle": "Véhicule",
+      "mileage": "Kilométrage",
+      "needs": "Besoin",
+      "details": "Précisions",
+      "date": "Date souhaitée",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "message": "Message",
+      "photos": "Photos jointes"
+    },
+    "email": {
+      "subject": "Demande de devis",
+      "confirmSubject": "Votre demande de devis, Alliance Auto 80",
+      "confirmIntro": "Bonjour {name},\n\nNous avons bien reçu votre demande. Nous vous rappelons rapidement avec un prix et un créneau. Voici ce que vous nous avez envoyé :",
+      "confirmOutro": "Pour toute question : {phone}, du lundi au vendredi.\n\nAlliance Auto 80"
+    }
+  },
+  "pages": {
+    "camon": {
+      "metaTitle": "Garage à Camon (80450), mécanique et entretien | Alliance Auto 80",
+      "metaDescription": "Garage automobile indépendant à Camon, près d'Amiens : entretien, vidange, freins, embrayage, distribution, diagnostic. Devis gratuit, toutes marques, 4,6/5 sur Google.",
+      "eyebrow": "Garage automobile · Camon, 80450",
+      "title": "Garage à Camon",
+      "intro": "Alliance Auto 80 est un garage indépendant installé depuis 2020 dans la zone de la Blanche Tâche, à Camon. Entretien et mécanique toutes marques, avec un devis clair avant de commencer.",
+      "cta": "Demander un devis",
+      "listTitle": "Ce qu'on fait à l'atelier",
+      "list": [
+        { "title": "Entretien", "text": "Vidange, filtres, révision constructeur, batterie." },
+        { "title": "Freins", "text": "Plaquettes, disques, liquide, contrôle complet." },
+        { "title": "Embrayage & distribution", "text": "Les grosses réparations, avec un devis détaillé." },
+        { "title": "Diagnostic & pneus", "text": "Voyants, bruits, fuites ; montage et équilibrage." }
+      ],
+      "howTitle": "Comment ça se passe",
+      "how": [
+        { "title": "Vous nous appelez ou envoyez une demande", "text": "Avec l'immatriculation, on identifie la voiture et les pièces." },
+        { "title": "On vous donne un prix", "text": "Un devis gratuit, ligne par ligne, et le temps d'immobilisation." },
+        { "title": "On répare et on vous explique", "text": "Ce qui a été fait, ce qui pourra attendre, et les pièces changées si vous voulez les voir." }
+      ],
+      "extra": "Le garage est facile d'accès depuis Amiens, Longueau, Rivery ou Glisy, à quelques minutes de la rocade."
+    },
+    "vidange": {
+      "metaTitle": "Vidange et entretien près d'Amiens, à Camon | Alliance Auto 80",
+      "metaDescription": "Vidange, filtres et révision selon le carnet constructeur, à Camon près d'Amiens. Garantie constructeur préservée, devis gratuit, toutes marques.",
+      "eyebrow": "Vidange & entretien · près d'Amiens",
+      "title": "Vidange et entretien près d'Amiens",
+      "intro": "Une vidange faite à temps, c'est un moteur qui dure. Au garage, à Camon, on fait l'entretien de votre voiture selon le programme du constructeur, avec l'huile et les filtres qui conviennent à votre moteur.",
+      "cta": "Prendre rendez-vous",
+      "listTitle": "Ce que comprend l'entretien",
+      "list": [
+        { "title": "Vidange", "text": "Huile aux normes de votre constructeur, filtre à huile neuf." },
+        { "title": "Révision", "text": "Les opérations prévues par le carnet, au bon kilométrage." },
+        { "title": "Filtres", "text": "Air, habitacle, gazole, selon l'échéance." },
+        { "title": "Contrôles", "text": "Freins, pneus, niveaux, batterie, éclairage." }
+      ],
+      "howTitle": "Quand faire la vidange ?",
+      "how": [
+        { "title": "Regardez le carnet d'entretien", "text": "Selon le moteur, une vidange tous les 10 000 à 30 000 km, ou au moins une fois par an." },
+        { "title": "Un voyant ou un niveau bas ?", "text": "N'attendez pas l'échéance : appelez-nous, on vérifie." },
+        { "title": "Une heure environ", "text": "Prenez rendez-vous : la vidange se fait en général dans l'heure." }
+      ],
+      "extra": "Bon à savoir : faire entretenir votre voiture hors du réseau de la marque ne fait pas perdre la garantie constructeur, tant que le programme d'entretien est respecté."
+    }
+  },
+  "footer": {
+    "tagline": "Garage automobile indépendant à Camon, près d'Amiens. Entretien et mécanique toutes marques.",
+    "contact": "Contact",
+    "pages": "Pages",
+    "days": "Du lundi au vendredi\n9 h – 12 h 30, 13 h 30 – 18 h 30",
+    "closed": "Samedi : appelez-nous · Dimanche : fermé",
+    "legal": "Mentions légales",
+    "rights": "Alliance Auto 80"
+  },
+  "legal": {
+    "metaTitle": "Mentions légales | Alliance Auto 80",
+    "title": "Mentions légales",
+    "editor": "Éditeur",
+    "editorText": "{company}, 80 impasse Antoine Parmentier, 80450 Camon. Téléphone : 09 80 37 44 12.",
+    "siret": "SIRET : {siret}.",
+    "host": "Hébergement",
+    "data": "Données personnelles",
+    "dataText": "Les informations envoyées par le formulaire de devis (véhicule, coordonnées, photos) servent uniquement à répondre à votre demande. Elles sont transmises par e-mail au garage et ne sont ni revendues ni utilisées à des fins publicitaires. Vous pouvez demander leur suppression en appelant le garage.",
+    "cookies": "Cookies",
+    "cookiesText": "Le site ne dépose aucun cookie publicitaire ni de mesure d'audience. Seul votre choix de langue est mémorisé. La carte intégrée est fournie par Google Maps."
+  },
+  "alt": {
+    "facade": "La façade du garage Alliance Auto 80, impasse Antoine Parmentier à Camon",
+    "atelier": "L'atelier du garage Alliance Auto 80, une voiture sur le pont élévateur",
+    "equipe": "L'équipe du garage Alliance Auto 80 à l'atelier",
+    "vidange": "Vidange en cours : l'huile usagée s'écoule sous le moteur",
+    "embrayage": "Un kit embrayage neuf posé sur l'établi avant montage",
+    "pieces": "Des plaquettes usées à côté des neuves, montrées au client"
+  }
+}

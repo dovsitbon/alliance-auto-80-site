@@ -1,0 +1,4 @@
+{
+  "_note": "Vrais avis clients, repris de Google AVEC L'ACCORD du garage (et idéalement de l'auteur). Aucun avis inventé. Format : { \"author\": \"Prénom N.\", \"date\": \"2026-10\", \"rating\": 5, \"text\": { \"fr\": \"…\", \"en\": \"…\" } }. Tant que la liste est vide, la section n'affiche que la note et les thèmes.",
+  "items": []
+}

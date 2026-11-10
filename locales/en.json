@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "title": "Car garage and mechanic in Camon, near Amiens | Alliance Auto 80",
+    "description": "Alliance Auto 80, an independent car garage in Camon, on the edge of Amiens: oil change, servicing, brakes, clutch, timing belt, diagnostics, tyres. Free quotes, all makes. Rated 4.6/5 on Google.",
+    "ogAlt": "Alliance Auto 80, car garage in Camon, near Amiens"
+  },
+  "nav": {
+    "entretien": "Servicing",
+    "mecanique": "Repairs",
+    "tarifs": "Prices",
+    "infos": "Info",
+    "devis": "Get a quote",
+    "call": "Call",
+    "menu": "Menu",
+    "close": "Close menu",
+    "home": "Alliance Auto 80, home",
+    "lang": "Language",
+    "skip": "Skip to content"
+  },
+  "intro": {
+    "skip": "Skip"
+  },
+  "announce": {
+    "close": "Close banner"
+  },
+  "status": {
+    "open": "Open now",
+    "closed": "Closed",
+    "until": "until {time}",
+    "reopens": "opens {day} at {time}",
+    "today": "today",
+    "tomorrow": "tomorrow"
+  },
+  "days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+  "rating": {
+    "label": "{value}/5 on Google",
+    "count": "{count} reviews",
+    "asOf": "Rating as of {date}"
+  },
+  "hero": {
+    "eyebrow": "Garage · Repairs · Servicing · Camon",
+    "title": "An honest mechanic, plain and simple",
+    "lead": "An independent garage in Camon, just outside Amiens. Oil changes, brakes, clutches, timing belts: a clear quote before any work, and no surprises on the bill.",
+    "field": "Registration or model",
+    "fieldPh": "AB-123-CD or Clio 4 dCi",
+    "devis": "Get a quote",
+    "call": "Call"
+  },
+  "tiles": {
+    "eyebrow": "Services",
+    "title": "What we do in the workshop",
+    "from": "from {price}",
+    "onQuote": "Price on quote",
+    "items": {
+      "entretien": { "title": "Oil change & service", "text": "Oil, filters, servicing to the manufacturer schedule." },
+      "embrayage": { "title": "Clutch", "text": "Full kit, flywheel, master and slave cylinders." },
+      "freins": { "title": "Brakes", "text": "Pads, discs, brake fluid." },
+      "distribution": { "title": "Timing belt", "text": "Belt, tensioners, water pump, at the right mileage." },
+      "diagnostic": { "title": "Diagnostics", "text": "Warning light, noise, leak: we find the cause before replacing anything." },
+      "pneus": { "title": "Tyres", "text": "Fitting, balancing, punctures." }
+    }
+  },
+  "strip": {
+    "label": "Our commitments",
+    "items": [
+      { "title": "Free quote", "text": "Before any work, no obligation." },
+      { "title": "Honest prices", "text": "We fix what needs fixing, nothing more." },
+      { "title": "All makes", "text": "City cars, family cars, vans, petrol or diesel." },
+      { "title": "09 80 37 44 12", "text": "Monday to Friday, 9am to 6:30pm." }
+    ]
+  },
+  "tarifs": {
+    "eyebrow": "Prices",
+    "title": "Guide prices and times",
+    "lead": "Prices are “from” prices, including VAT, parts and labour. They vary with the model and engine: the quote itself is exact and free.",
+    "note": "Times are a guide and depend on parts availability.",
+    "head": { "service": "Service", "price": "Price", "duration": "Time" },
+    "from": "from {price}",
+    "onQuote": "On quote",
+    "confirm": "To be confirmed",
+    "ask": "Quote",
+    "all": "All prices",
+    "cardsTitle": "By service"
+  },
+  "tarifsPage": {
+    "metaTitle": "Oil change, brake and clutch prices in Camon, near Amiens | Alliance Auto 80",
+    "metaDescription": "Guide “from” prices and typical times: oil change, servicing, brakes, clutch, timing belt, diagnostics, tyres. Free quote at Alliance Auto 80, Camon.",
+    "eyebrow": "Prices",
+    "title": "Prices and times",
+    "lead": "For each service, a “from” price and the usual time your car stays with us. The exact price depends on your car: ask for a quote, it is free and comes with no obligation."
+  },
+  "blocks": {
+    "entretien": {
+      "eyebrow": "Servicing",
+      "title": "Change the oil before it turns into a breakdown",
+      "text": "Oil change, filters, servicing to your manufacturer’s schedule, brake and fluid checks. We follow what the manufacturer recommends, no more and no less.",
+      "cta": "Book a slot"
+    },
+    "reparations": {
+      "eyebrow": "Repairs",
+      "title": "Clutch, timing belt: the price agreed before we take anything apart",
+      "text": "A slipping pedal, a noise on start-up, a belt reaching its mileage. We diagnose, give you a detailed quote for parts and labour, and stick to it.",
+      "cta": "Get a quote"
+    },
+    "transparence": {
+      "eyebrow": "Transparency",
+      "title": "We show you the parts we replaced",
+      "text": "You get your car back clean, the old parts if you want them, and an invoice that lists every line. If a repair can wait, we tell you that too.",
+      "cta": "Call the garage"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Google reviews",
+    "title": "What our customers mention most",
+    "themes": ["Fair prices", "An honest mechanic", "Oil changes and clutches", "Cars handed back clean"],
+    "cta": "Read the reviews on Google"
+  },
+  "infos": {
+    "eyebrow": "Practical info",
+    "title": "Finding the garage",
+    "address": "Address",
+    "route": "Directions",
+    "phone": "Phone",
+    "hours": "Opening hours",
+    "access": "Access and parking",
+    "accessText": "In the Blanche Tâche business park in Camon, a few minutes from Amiens. You can park right outside the workshop.",
+    "mapTitle": "Map to the Alliance Auto 80 garage, Camon",
+    "closedDay": "Closed",
+    "saturday": "Please call",
+    "closures": "Upcoming closures"
+  },
+  "faq": {
+    "eyebrow": "Frequently asked questions",
+    "title": "Before you come",
+    "items": [
+      { "q": "Do I need an appointment?", "a": "For an oil change or a service, it is best to book: call us or send a request and we will offer you a slot. For a noise, a warning light or a leak, call us and we will look at it as soon as we can." },
+      { "q": "Is the quote really free?", "a": "Yes, free and with no obligation. If we find something else while working on the car, we call you before going any further." },
+      { "q": "How long will I be without my car?", "a": "An oil change takes about an hour, brake pads about the same. A clutch or a timing belt usually takes a day, depending on parts. We give you the time with the quote." },
+      { "q": "Do I keep the manufacturer’s warranty?", "a": "Yes. You can have a car under warranty serviced by an independent garage, as long as the manufacturer’s service schedule is followed with parts of matching quality. That is what we do." },
+      { "q": "How can I pay?", "a": "By card or cash, when you collect your car. There is no online payment." },
+      { "q": "Where can I park?", "a": "The garage is at 80 impasse Antoine Parmentier, in the Blanche Tâche business park in Camon. You can park right outside the workshop." }
+    ]
+  },
+  "devis": {
+    "eyebrow": "Free quote",
+    "title": "Get a quote",
+    "lead": "Tell us which car and what is wrong. We call you back with a price and a slot, usually within the working day.",
+    "preferCall": "Easier on the phone?",
+    "sections": {
+      "vehicle": "Your car",
+      "need": "What you need",
+      "photos": "Photos",
+      "date": "Preferred date",
+      "contact": "Your details"
+    },
+    "fields": {
+      "vehicle": "Registration or model",
+      "vehiclePh": "AB-123-CD or Clio 4 dCi 90",
+      "vehicleHint": "The registration helps us find the right parts.",
+      "mileage": "Mileage (km)",
+      "mileagePh": "120,000",
+      "needsLabel": "What is it about?",
+      "needsHint": "choose as many as you like",
+      "details": "Details",
+      "detailsPh": "Noise when braking, engine light on, 60,000 km service…",
+      "photos": "Add",
+      "photosHint": "Optional: a warning light, a leak, a tyre, the registration document. 1 to 3 photos.",
+      "photosCount": "{count} / 3 photos",
+      "photoRemove": "Remove photo",
+      "date": "Preferred date",
+      "dateHint": "Monday to Friday. We confirm the slot by phone.",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "emailHint": "(optional, to get a copy)",
+      "message": "Message",
+      "messagePh": "A question, a time constraint…"
+    },
+    "needs": {
+      "entretien": "Oil change, service",
+      "embrayage": "Clutch",
+      "freins": "Brakes",
+      "distribution": "Timing belt",
+      "diagnostic": "Diagnostics, warning light",
+      "pneus": "Tyres",
+      "autre": "Something else"
+    },
+    "errors": {
+      "vehicle": "Please give the registration or the model.",
+      "need": "Choose what you need or describe it in a few words.",
+      "name": "Please give your name.",
+      "phone": "Please give a valid phone number.",
+      "email": "This email address does not look right.",
+      "photo": "This photo could not be added. Try another file.",
+      "generic": "Sending failed. Please try again, or call us on 09 80 37 44 12."
+    },
+    "submit": "Send request",
+    "sending": "Sending…",
+    "privacy": "Your details are only used to reply to you. They are never sold or used for advertising.",
+    "success": {
+      "title": "Request received",
+      "text": "Thank you. We will look at your request and call you back with a price and a slot.",
+      "email": "A copy has been sent to your email address.",
+      "notNotified": "To make sure it reaches us quickly, the simplest is to call us:",
+      "again": "Send another request"
+    },
+    "message": {
+      "title": "New quote request",
+      "vehicle": "Vehicle",
+      "mileage": "Mileage",
+      "needs": "Needs",
+      "details": "Details",
+      "date": "Preferred date",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "photos": "Photos attached"
+    },
+    "email": {
+      "subject": "Quote request",
+      "confirmSubject": "Your quote request, Alliance Auto 80",
+      "confirmIntro": "Hello {name},\n\nWe have received your request and will call you back soon with a price and a slot. Here is what you sent us:",
+      "confirmOutro": "Any questions: {phone}, Monday to Friday.\n\nAlliance Auto 80"
+    }
+  },
+  "pages": {
+    "camon": {
+      "metaTitle": "Car garage in Camon (80450), repairs and servicing | Alliance Auto 80",
+      "metaDescription": "Independent car garage in Camon, near Amiens: servicing, oil change, brakes, clutch, timing belt, diagnostics. Free quotes, all makes, rated 4.6/5 on Google.",
+      "eyebrow": "Car garage · Camon, 80450",
+      "title": "Car garage in Camon",
+      "intro": "Alliance Auto 80 is an independent garage, set up in 2020 in the Blanche Tâche business park in Camon. Servicing and repairs on all makes, with a clear quote before we start.",
+      "cta": "Get a quote",
+      "listTitle": "What we do in the workshop",
+      "list": [
+        { "title": "Servicing", "text": "Oil change, filters, manufacturer service, battery." },
+        { "title": "Brakes", "text": "Pads, discs, fluid, full check." },
+        { "title": "Clutch & timing belt", "text": "The big jobs, with a detailed quote." },
+        { "title": "Diagnostics & tyres", "text": "Warning lights, noises, leaks; fitting and balancing." }
+      ],
+      "howTitle": "How it works",
+      "how": [
+        { "title": "Call us or send a request", "text": "With the registration, we identify the car and its parts." },
+        { "title": "We give you a price", "text": "A free quote, line by line, and how long the car will stay with us." },
+        { "title": "We fix it and explain", "text": "What was done, what can wait, and the replaced parts if you want to see them." }
+      ],
+      "extra": "The garage is easy to reach from Amiens, Longueau, Rivery or Glisy, a few minutes from the ring road."
+    },
+    "vidange": {
+      "metaTitle": "Oil change and car servicing near Amiens, in Camon | Alliance Auto 80",
+      "metaDescription": "Oil change, filters and servicing to the manufacturer schedule, in Camon near Amiens. Manufacturer warranty kept, free quotes, all makes.",
+      "eyebrow": "Oil change & servicing · near Amiens",
+      "title": "Oil change and servicing near Amiens",
+      "intro": "An oil change done on time keeps an engine going. At our garage in Camon, we service your car to the manufacturer’s schedule, with the oil and filters your engine needs.",
+      "cta": "Book a slot",
+      "listTitle": "What a service includes",
+      "list": [
+        { "title": "Oil change", "text": "Oil to your manufacturer’s standard, new oil filter." },
+        { "title": "Service", "text": "The work listed in the service book, at the right mileage." },
+        { "title": "Filters", "text": "Air, cabin, diesel, when they are due." },
+        { "title": "Checks", "text": "Brakes, tyres, fluids, battery, lights." }
+      ],
+      "howTitle": "When should the oil be changed?",
+      "how": [
+        { "title": "Check the service book", "text": "Depending on the engine, every 10,000 to 30,000 km, or at least once a year." },
+        { "title": "Warning light or low level?", "text": "Don’t wait for the due date: call us and we will check." },
+        { "title": "About an hour", "text": "Book a slot: an oil change usually takes around an hour." }
+      ],
+      "extra": "Good to know: having your car serviced outside the brand’s dealer network does not void the manufacturer’s warranty, as long as the service schedule is followed."
+    }
+  },
+  "footer": {
+    "tagline": "Independent car garage in Camon, near Amiens. Servicing and repairs on all makes.",
+    "contact": "Contact",
+    "pages": "Pages",
+    "days": "Monday to Friday\n9am – 12:30pm, 1:30pm – 6:30pm",
+    "closed": "Saturday: please call · Sunday: closed",
+    "legal": "Legal notice",
+    "rights": "Alliance Auto 80"
+  },
+  "legal": {
+    "metaTitle": "Legal notice | Alliance Auto 80",
+    "title": "Legal notice",
+    "editor": "Publisher",
+    "editorText": "{company}, 80 impasse Antoine Parmentier, 80450 Camon, France. Phone: +33 9 80 37 44 12.",
+    "siret": "SIRET: {siret}.",
+    "host": "Hosting",
+    "data": "Personal data",
+    "dataText": "The information sent through the quote form (vehicle, contact details, photos) is only used to answer your request. It is emailed to the garage and is never sold or used for advertising. You can ask for it to be deleted by calling the garage.",
+    "cookies": "Cookies",
+    "cookiesText": "This site sets no advertising or analytics cookies. Only your language choice is remembered. The embedded map is provided by Google Maps."
+  },
+  "alt": {
+    "facade": "The front of the Alliance Auto 80 garage, impasse Antoine Parmentier in Camon",
+    "atelier": "The Alliance Auto 80 workshop, a car up on the lift",
+    "equipe": "The Alliance Auto 80 team in the workshop",
+    "vidange": "Oil change in progress: old oil draining from under the engine",
+    "embrayage": "A new clutch kit on the workbench before fitting",
+    "pieces": "Worn brake pads next to new ones, shown to the customer"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Alliance Auto 80",
+  "url": "https://alliance-auto-80.vercel.app",
+  "phone": "09 80 37 44 12",
+  "phoneIntl": "+33 9 80 37 44 12",
+  "tel": "+33980374412",
+  "whatsapp": null,
+  "email": null,
+  "address": { "street": "80 impasse Antoine Parmentier", "postalCode": "80450", "city": "Camon", "area": "Zone d'activité de la Blanche Tâche", "region": "Hauts-de-France", "country": "FR" },
+  "geo": { "lat": 49.899595, "lng": 2.344499 },
+  "maps": "https://www.google.com/maps/search/?api=1&query=Alliance+Auto+80+80+impasse+Antoine+Parmentier+80450+Camon",
+  "mapsEmbed": "https://www.google.com/maps?q=Alliance+Auto+80,+80+impasse+Antoine+Parmentier,+80450+Camon&z=15&output=embed",
+  "rating": { "value": 4.6, "count": 139, "asOf": "2026-11-10", "source": "Google" },
+  "legal": {
+    "company": "SARL Alliance Auto 80",
+    "siret": "890 999 089 00018",
+    "host": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis"
+  }
+}

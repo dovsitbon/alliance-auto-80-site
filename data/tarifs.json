@@ -1,0 +1,59 @@
+{
+  "_note": "Tarifs et durées affichés sur le site (tableau, tuiles, page Tarifs, pages SEO, données structurées). price : prix « à partir de » en euros TTC, ou null (affiché « sur devis »). duration : durée indicative d'immobilisation, dans les deux langues, ou null. confirm: true = prestation à confirmer avec le garage. TOUT EST À REMPLIR / VALIDER avec le garage : aucun prix n'a été inventé. Des repères de marché sont donnés dans CONTENU.md pour aider à remplir.",
+  "categories": [
+    {
+      "id": "entretien",
+      "name": { "fr": "Vidange & révision", "en": "Oil change & service" },
+      "items": [
+        { "id": "vidange", "name": { "fr": "Vidange huile moteur + filtre à huile", "en": "Engine oil and oil filter change" }, "price": null, "duration": { "fr": "Environ 1 h", "en": "About 1 hour" } },
+        { "id": "revision", "name": { "fr": "Révision selon le carnet constructeur", "en": "Service to the manufacturer schedule" }, "price": null, "duration": { "fr": "2 à 3 h", "en": "2 to 3 hours" } },
+        { "id": "filtres", "name": { "fr": "Filtres à air, habitacle, gazole", "en": "Air, cabin and fuel filters" }, "price": null, "duration": { "fr": "Moins d'1 h", "en": "Under an hour" } },
+        { "id": "batterie", "name": { "fr": "Batterie : contrôle et remplacement", "en": "Battery check and replacement" }, "price": null, "duration": { "fr": "Moins d'1 h", "en": "Under an hour" } }
+      ]
+    },
+    {
+      "id": "embrayage",
+      "name": { "fr": "Embrayage", "en": "Clutch" },
+      "items": [
+        { "id": "kit-embrayage", "name": { "fr": "Kit embrayage (disque, mécanisme, butée)", "en": "Clutch kit (disc, pressure plate, bearing)" }, "price": null, "duration": { "fr": "1 journée", "en": "1 day" } },
+        { "id": "volant-moteur", "name": { "fr": "Volant moteur bimasse", "en": "Dual-mass flywheel" }, "price": null, "duration": { "fr": "1 journée, avec l'embrayage", "en": "1 day, with the clutch" } },
+        { "id": "emetteur-recepteur", "name": { "fr": "Émetteur, récepteur, câble d'embrayage", "en": "Clutch master or slave cylinder, cable" }, "price": null, "duration": { "fr": "Quelques heures", "en": "A few hours" } }
+      ]
+    },
+    {
+      "id": "freins",
+      "name": { "fr": "Freins", "en": "Brakes" },
+      "items": [
+        { "id": "plaquettes", "name": { "fr": "Plaquettes avant ou arrière", "en": "Front or rear brake pads" }, "price": null, "duration": { "fr": "Environ 1 h", "en": "About 1 hour" } },
+        { "id": "disques-plaquettes", "name": { "fr": "Disques + plaquettes, un essieu", "en": "Discs and pads, one axle" }, "price": null, "duration": { "fr": "1 h 30 à 2 h", "en": "1.5 to 2 hours" } },
+        { "id": "liquide-frein", "name": { "fr": "Purge du liquide de frein", "en": "Brake fluid change" }, "price": null, "duration": { "fr": "Moins d'1 h", "en": "Under an hour" } }
+      ]
+    },
+    {
+      "id": "distribution",
+      "name": { "fr": "Distribution", "en": "Timing belt" },
+      "items": [
+        { "id": "kit-distribution", "name": { "fr": "Kit distribution + pompe à eau", "en": "Timing belt kit and water pump" }, "price": null, "duration": { "fr": "1 journée", "en": "1 day" } },
+        { "id": "courroie-accessoires", "name": { "fr": "Courroie d'accessoires", "en": "Auxiliary drive belt" }, "price": null, "duration": { "fr": "1 à 2 h", "en": "1 to 2 hours" } }
+      ]
+    },
+    {
+      "id": "diagnostic",
+      "name": { "fr": "Diagnostic", "en": "Diagnostics" },
+      "items": [
+        { "id": "diagnostic-electronique", "name": { "fr": "Diagnostic électronique, voyant allumé", "en": "Electronic diagnostics, warning light on" }, "price": null, "duration": { "fr": "30 min à 1 h", "en": "30 min to 1 hour" } },
+        { "id": "pre-controle", "name": { "fr": "Préparation au contrôle technique", "en": "Pre-MOT check" }, "price": null, "duration": { "fr": "Environ 1 h", "en": "About 1 hour" } },
+        { "id": "bruit", "name": { "fr": "Recherche de bruit ou de fuite, essai", "en": "Noise or leak investigation, road test" }, "price": null, "duration": { "fr": "Selon le cas", "en": "Depends on the case" } }
+      ]
+    },
+    {
+      "id": "pneus",
+      "name": { "fr": "Pneus", "en": "Tyres" },
+      "items": [
+        { "id": "montage-equilibrage", "name": { "fr": "Montage et équilibrage, par pneu", "en": "Fitting and balancing, per tyre" }, "price": null, "duration": { "fr": "Environ 1 h les quatre", "en": "About 1 hour for four" } },
+        { "id": "crevaison", "name": { "fr": "Réparation de crevaison", "en": "Puncture repair" }, "price": null, "duration": { "fr": "Moins d'1 h", "en": "Under an hour" } },
+        { "id": "parallelisme", "name": { "fr": "Parallélisme", "en": "Wheel alignment" }, "price": null, "duration": null, "confirm": true }
+      ]
+    }
+  ]
+}

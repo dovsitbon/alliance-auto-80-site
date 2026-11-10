@@ -1,0 +1,19 @@
+{
+  "_note": "Jours : 0 = dimanche … 6 = samedi. Heures HH:MM, heure de Paris. Samedi : À CONFIRMER avec le garage (null = fermé ; par exemple [[\"09:00\", \"12:00\"]] s'il ouvre le matin, et passer saturdayToConfirm à false). Fermetures exceptionnelles (congés, jours fériés) dans closures, au format AAAA-MM-JJ : le statut « Ouvert / Fermé » en tient compte. Ajouter aussi l'annonce dans annonces.json.",
+  "timezone": "Europe/Paris",
+  "saturdayToConfirm": true,
+  "week": {
+    "0": null,
+    "1": [["09:00", "12:30"], ["13:30", "18:30"]],
+    "2": [["09:00", "12:30"], ["13:30", "18:30"]],
+    "3": [["09:00", "12:30"], ["13:30", "18:30"]],
+    "4": [["09:00", "12:30"], ["13:30", "18:30"]],
+    "5": [["09:00", "12:30"], ["13:30", "18:30"]],
+    "6": null
+  },
+  "closures": [
+    { "from": "2026-11-11", "to": "2026-11-11", "label": { "fr": "Armistice", "en": "Armistice Day" } },
+    { "from": "2026-12-25", "to": "2026-12-25", "label": { "fr": "Noël", "en": "Christmas Day" } },
+    { "from": "2027-01-01", "to": "2027-01-01", "label": { "fr": "Jour de l'an", "en": "New Year's Day" } }
+  ]
+}

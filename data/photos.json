@@ -1,0 +1,18 @@
+{
+  "_note": "Emplacements photo. Chemin /media/<dossier>/<fichier>.jpg (préparé par npm run media depuis assets/), ou null : le site affiche alors un emplacement dessiné, sans fausse photo. Pour ajouter une photo prise sur place : la poser dans assets/<dossier>/, l'ajouter à scripts/media.mjs (PICKS), lancer npm run media, puis renseigner ici le chemin. Voir assets/A-PHOTOGRAPHIER.md.",
+  "hero": null,
+  "facade": null,
+  "atelier": null,
+  "equipe": null,
+  "entretien": null,
+  "reparations": null,
+  "transparence": null,
+  "tiles": {
+    "entretien": null,
+    "embrayage": null,
+    "freins": null,
+    "distribution": null,
+    "diagnostic": null,
+    "pneus": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_note": "Bandeau du haut de page, qu'on peut fermer. Une annonce datée s'affiche entre from et to (inclus) et passe avant le message par défaut ; la plus récente l'emporte. page : home, devis, tarifs, camon, vidange ; hash facultatif (ancre, ex. infos). Pour une fermeture, ajouter aussi les dates dans horaires.json → closures.",
+  "default": {
+    "id": "devis-gratuit",
+    "text": { "fr": "Devis gratuit, prix honnêtes. Toutes marques, du lundi au vendredi.", "en": "Free quotes, honest prices. All makes, Monday to Friday." },
+    "link": { "fr": "Demander un devis", "en": "Get a quote" },
+    "page": "devis"
+  },
+  "items": [
+    {
+      "id": "ferie-11-novembre-2026",
+      "from": "2026-11-09",
+      "to": "2026-11-11",
+      "text": { "fr": "Le garage sera fermé le mercredi 11 novembre (jour férié).", "en": "The garage will be closed on Wednesday 11 November (bank holiday)." },
+      "link": { "fr": "Horaires", "en": "Opening hours" },
+      "page": "home",
+      "hash": "infos"
+    },
+    {
+      "id": "fetes-2026",
+      "from": "2026-12-18",
+      "to": "2027-01-01",
+      "text": { "fr": "Fêtes de fin d'année : le garage sera fermé le 25 décembre et le 1er janvier. Pensez à prendre rendez-vous avant les départs.", "en": "Holidays: the garage will be closed on 25 December and 1 January. Book your car in before you travel." },
+      "link": { "fr": "Prendre rendez-vous", "en": "Book a slot" },
+      "page": "devis"
+    }
+  ]
+}
